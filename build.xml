@@ -1,7 +1,6 @@
 <project name="zm-bulkprovision-admin-zimlet" default="package-zimlet">
+	<import file="ant-global.xml" />
 
-	<import file="../zm-zcs/ant-global.xml" />	
-	
 	<property name="zimlet.file" value="com_zimbra_bulkprovision.zip" />		
 	<property name="src.bulkprovision.js.dir" location="BulkProvision/js" />    
 
